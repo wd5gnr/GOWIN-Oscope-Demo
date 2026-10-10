@@ -1,0 +1,14 @@
+[General]
+file=uart_master
+ipc_version=4
+module=UART_MASTER_Top
+target_device=gw2ar18c-000
+type=uart_master
+version=1.0
+
+[Config]
+FIFO_IMPLEMENTATION=REG
+LANG=0
+STD_UART_BAUD_RATE=9600
+Synthesis_tool=GowinSynthesis
+UART_MASTER_SYSCLK=27
